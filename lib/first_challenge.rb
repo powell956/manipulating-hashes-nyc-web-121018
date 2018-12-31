@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
-  contacts["Freddie Mercury"].each do |data, value|
+  contacts["Freddy Mercury"].each do |data, value|
     if data == favorite_icecream_flavors
       value.delete_if do |flavor|
         flavor == "strawberry"
